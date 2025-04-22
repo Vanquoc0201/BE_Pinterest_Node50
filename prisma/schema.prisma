@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Comments {
+  commentId   Int       @id @default(autoincrement())
+  userId      Int
+  imageId     Int
+  dateComment DateTime  @db.Date
+  content     String?   @db.VarChar(500)
+  deletedBy   Int       @default(0)
+  isDeleted   Boolean   @default(false)
+  deletedAt   DateTime? @db.Timestamp(0)
+  createdAt   DateTime  @default(now()) @db.Timestamp(0)
+  updatedAt   DateTime  @default(now()) @db.Timestamp(0)
+  Users       Users     @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Comments_ibfk_1")
+  Images      Images    @relation(fields: [imageId], references: [imageId], onDelete: NoAction, onUpdate: NoAction, map: "Comments_ibfk_2")
+
+  @@index([imageId], map: "imageId")
+  @@index([userId], map: "userId")
+}
+
+model Images {
+  imageId     Int        @id @default(autoincrement())
+  imageName   String     @db.VarChar(200)
+  imageLink   String     @db.VarChar(500)
+  description String?    @db.VarChar(500)
+  userId      Int
+  deletedBy   Int        @default(0)
+  isDeleted   Boolean    @default(false)
+  deletedAt   DateTime?  @db.Timestamp(0)
+  createdAt   DateTime   @default(now()) @db.Timestamp(0)
+  updatedAt   DateTime   @default(now()) @db.Timestamp(0)
+  Comments    Comments[]
+  Users       Users      @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Images_ibfk_1")
+  Saves       Saves[]    
+
+  @@index([userId], map: "userId")
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model Saves {
+  userId   Int
+  imageId  Int
+  dateSave DateTime @db.Date
+  deletedBy Int     @default(0)
+  isDeleted Boolean @default(false)
+  deletedAt DateTime? @db.Timestamp(0)
+  createdAt DateTime @default(now()) @db.Timestamp(0)
+  updatedAt DateTime @default(now()) @db.Timestamp(0)
+  Users    Users    @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Saves_ibfk_1")
+  Images   Images   @relation(fields: [imageId], references: [imageId], onDelete: NoAction, onUpdate: NoAction, map: "Saves_ibfk_2")
+
+  @@id([userId, imageId])  // Khóa chính kết hợp giữa userId và imageId
+  @@index([userId], map: "userId")
+  @@index([imageId], map: "imageId")
+}
+
+model Users {
+  userId    Int        @id @default(autoincrement())
+  email     String     @unique(map: "email") @db.VarChar(100)
+  password  String     @db.VarChar(255)
+  hoTen     String     @db.VarChar(100)
+  avatar    String?    @db.VarChar(255)
+  deletedBy Int        @default(0)
+  isDeleted Boolean    @default(false)
+  deletedAt DateTime?  @db.Timestamp(0)
+  createdAt DateTime   @default(now()) @db.Timestamp(0)
+  updatedAt DateTime   @default(now()) @db.Timestamp(0)
+  Comments  Comments[]
+  Images    Images[]
+  Saves     Saves[]    @ignore
+}
+

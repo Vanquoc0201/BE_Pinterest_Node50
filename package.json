@@ -19,6 +19,7 @@
     "dev": "nodemon --import=extensionless/register server.js"
   },
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "bcrypt": "^5.1.1",
     "chalk": "^5.4.1",
     "cors": "^2.8.5",
@@ -31,5 +32,8 @@
     "multer": "^1.4.5-lts.2",
     "nodemon": "^3.1.9",
     "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
   }
 }
