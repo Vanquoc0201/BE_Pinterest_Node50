@@ -21,34 +21,24 @@ export const authController = {
       }
    },
 
-   findOne: async function (req, res, next) {
+   refreshToken: async (req, res, next) => {
       try {
-         const result = await authService.findOne(req);
-         const response = responseSuccess(result, `Get auth #${req.params.id} successfully`);
+         const result = await authService.refreshToken(req);
+         const response = responseSuccess(result, `Làm mới token thành công`);
          res.status(response.statusCode).json(response);
-      } catch (err) {
-         next(err);
+      } catch (error) {
+         next(error);
       }
    },
-
-   update: async function (req, res, next) {
+   getInfo: async (req, res, next) => {
       try {
-         const result = await authService.update(req);
-         const response = responseSuccess(result, `Update auth #${req.params.id} successfully`);
+         const result = await authService.getInfo(req);
+         const response = responseSuccess(result, `Lấy thông tin user thành công`);
          res.status(response.statusCode).json(response);
-      } catch (err) {
-         next(err);
+      } catch (error) {
+         next(error);
       }
    },
-
-   remove: async function (req, res, next) {
-      try {
-         const result = await authService.remove(req);
-         const response = responseSuccess(result, `Remove auth #${req.params.id} successfully`);
-         res.status(response.statusCode).json(response);
-      } catch (err) {
-         next(err);
-      }
-   }
+   
 };
 export default authController
