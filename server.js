@@ -5,6 +5,7 @@ import cors from "cors";
 import { handleError } from "./src/common/helpers/error.helper";
 import rootRouter from "./src/routers/root.router";
 const app = express();
+app.use(express.static("."))
 app.use(express.json());
 app.use(logApi());
 app.use(handleError);

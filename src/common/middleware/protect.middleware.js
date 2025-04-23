@@ -10,7 +10,6 @@ const protect = async (req,res,next) => {
         if(!token) throw new UnAuthorizedException("Không có token");
         if(type !== "Bearer") throw new UnAuthorizedException("Loại token không hợp lệ");
         const decode  = jwt.verify(token, ACCESS_TOKEN_SECRET);
-        console.log( {decode});
         
         const user = await prisma.users.findUnique({
             where : {
