@@ -39,6 +39,24 @@ export const photoController = {
       } catch (err) {
          next(err);
       }
-   }
+   },
+   saveImage : async function (req, res, next) {
+      try {
+         const result = await photoService.saveImage(req);
+         const response = responseSuccess(result, `Lưu ảnh thành công`);
+         res.status(response.statusCode).json(response);
+      } catch (err) {
+         next(err);
+      }
+   },
+   unSaveImage : async function (req, res, next) {
+      try {
+         const result = await photoService.unSaveImage(req);
+         const response = responseSuccess(result, `Hủy lưu thành công`);
+         res.status(response.statusCode).json(response);
+      } catch (err) {
+         next(err);
+      }
+   },
 };
 export default photoController

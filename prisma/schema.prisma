@@ -23,6 +23,7 @@ model Comments {
 
   @@index([imageId], map: "imageId")
   @@index([userId], map: "userId")
+  
 }
 
 model Images {
@@ -45,20 +46,20 @@ model Images {
 
 /// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
 model Saves {
-  userId   Int
-  imageId  Int
-  dateSave DateTime @db.Date
-  deletedBy Int     @default(0)
-  isDeleted Boolean @default(false)
+  userId    Int
+  imageId   Int
+  dateSave  DateTime  @db.Date
+  deletedBy Int       @default(0)
+  isDeleted Boolean   @default(false)
   deletedAt DateTime? @db.Timestamp(0)
-  createdAt DateTime @default(now()) @db.Timestamp(0)
-  updatedAt DateTime @default(now()) @db.Timestamp(0)
-  Users    Users    @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Saves_ibfk_1")
-  Images   Images   @relation(fields: [imageId], references: [imageId], onDelete: NoAction, onUpdate: NoAction, map: "Saves_ibfk_2")
+  createdAt DateTime  @default(now()) @db.Timestamp(0)
+  updatedAt DateTime  @default(now()) @db.Timestamp(0)
+  Users     Users     @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Saves_ibfk_1")
+  Images    Images    @relation(fields: [imageId], references: [imageId], onDelete: NoAction, onUpdate: NoAction, map: "Saves_ibfk_2")
 
-  @@id([userId, imageId])  // Khóa chính kết hợp giữa userId và imageId
   @@index([userId], map: "userId")
   @@index([imageId], map: "imageId")
+  @@id([userId, imageId]) // Khóa chính kết hợp
 }
 
 model Users {
@@ -74,6 +75,5 @@ model Users {
   updatedAt DateTime   @default(now()) @db.Timestamp(0)
   Comments  Comments[]
   Images    Images[]
-  Saves     Saves[]    @ignore
+  Saves     Saves[]    
 }
-

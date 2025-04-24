@@ -436,3 +436,485 @@
 {"level":"info","message":"DELETE /photo/1?1 500 410 55.397ms","tag":" API "}
 {"level":"info","message":"DELETE /photo/1 500 410 14.769ms","tag":" API "}
 {"level":"info","message":"DELETE /photo/2 500 417 22.868ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"DELETE /photo/2 200 157 134.319ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 200 269 55.771ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 200 269 39.580ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /auth/register 200 317 163.050ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 404 148 11.031ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 404 148 1.599ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /auth/refresh-token 200 436 57.345ms","tag":" API "}
+{"level":"info","message":"POST /photo/1/save 500 652 176.460ms","tag":" API "}
+{"level":"info","message":"POST /photo/1/save 500 652 38.677ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/1/save 500 416 65.525ms","tag":" API "}
+{"level":"info","message":"POST /photo/5/save 500 462 16.037ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 462 73.945ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 461 56.397ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 462 70.882ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 461 59.901ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 461 62.204ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 461 163.697ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 462 59.791ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 500 462 54.066ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/5/save 200 145 199.012ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"DELETE /photo/6/save 500 435 61.168ms","tag":" API "}
+{"level":"info","message":"DELETE /photo/5/save 200 151 61.127ms","tag":" API "}
+{"level":"info","message":"POST /photo/1/save 500 416 17.829ms","tag":" API "}
+{"level":"info","message":"POST /photo/5/save 200 145 40.697ms","tag":" API "}
+{"level":"info","message":"POST /photo/6/save 200 145 32.405ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /auth/refresh-token 200 436 44.214ms","tag":" API "}
+{"level":"info","message":"GET /user/save-image 404 154 5.367ms","tag":" API "}
+{"level":"info","message":"GET /user/saved-image 404 155 1.442ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/saved-image 404 155 5.670ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /auth/refresh-token 200 436 33.657ms","tag":" API "}
+{"level":"info","message":"GET /user/saved-image 500 1407 278.548ms","tag":" API "}
+{"level":"info","message":"GET /user/saved-image 500 1407 16.234ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/saved-image 500 1407 123.568ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/saved-image 500 1407 99.942ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/saved-image 500 1407 60.175ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/saved-image 500 1407 65.240ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/saved-image 200 1047 98.822ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 200 3106 15.061ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 4828 2.451ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 200 154986 34.165ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 200 229223 28.736ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 200 1468326 32.809ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 200 628 1.606ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 1.980ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 3.283ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 2.468ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.198ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 7.561ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.876ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 10.957ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.707ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 15.541ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 11.384ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.819ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 1.932ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 2.616ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 0.754ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 11.660ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 17.072ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.271ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.215ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 6.275ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 26.902ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 1.727ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 5613 1.010ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.147ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 13.731ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 10.621ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 16.920ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 6440 1.361ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 27.438ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.744ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.529ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 6.023ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 9.469ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 12.755ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 6442 1.918ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.175ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 13.648ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 4.813ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 6522 1.770ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 13.537ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 19.522ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 3.905ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 11.971ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 11.407ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 18.241ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 6835 1.464ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 35.078ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.706ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 11.989ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 5.410ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 11.109ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7000 3.644ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 16.189ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.484ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 15.483ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 7.881ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 9.929ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7480 1.159ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 11.676ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.783ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 10.324ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 7.370ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7960 1.639ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 52.162ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 114.646ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.896ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 1.519ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 4.119ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 5.671ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 0.748ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 2.042ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 3.591ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 9.082ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 5.837ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 9.431ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 9.579ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7961 1.694ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.142ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 10.468ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 4.653ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7960 1.686ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 13.439ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 18.274ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 4.345ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 26.815ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 1.661ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 4.988ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 3.590ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.424ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 8.527ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.532ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 2.057ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 2.149ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 6.110ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.289ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 1.734ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.677ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /auth/login 500 415 168.717ms","tag":" API "}
+{"level":"info","message":"POST /auth/login 200 433 161.614ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 8.648ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 7.794ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 13.249ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 2.382ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7961 1.505ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.816ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 25.422ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 8.193ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 14.163ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7953 1.871ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 21.899ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.923ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 25.413ms","tag":" API "}
+{"level":"info","message":"GET /auth/get-info 200 323 53.412ms","tag":" API "}
+{"level":"info","message":"GET /pagination 404 149 5.015ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.559ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 4.938ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 4.494ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 8.396ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7486 1.862ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.103ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 11.723ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 9.203ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 17.492ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 26.182ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7490 2.369ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.183ms","tag":" API "}
+{"level":"info","message":"GET /photo/pagination 200 942 81.403ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 13.970ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 3.664ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7937 2.834ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 14.558ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 14.590ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.227ms","tag":" API "}
+{"level":"info","message":"GET /photo/:id 500 1307 6.105ms","tag":" API "}
+{"level":"info","message":"GET /photo/:id 500 1307 2.851ms","tag":" API "}
+{"level":"info","message":"GET /photo/:id 500 1307 1.975ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 21.046ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 5.700ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 14.546ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 4.566ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7938 1.897ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.617ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 3.189ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 4.298ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 6.817ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.132ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 7.795ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.394ms","tag":" API "}
+{"level":"info","message":"GET /photo/:id?id=5 500 1307 5.415ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /photo/:id?id=5 500 1307 14.357ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 7.929ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 6.155ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 11.576ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 14.614ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7937 1.066ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.847ms","tag":" API "}
+{"level":"info","message":"GET /photo/:id 500 1307 2.763ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.592ms","tag":" API "}
+{"level":"info","message":"GET /photo/:id undefined undefined undefinedms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7938 1.162ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 13.281ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 15.792ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 22.962ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.116ms","tag":" API "}
+{"level":"info","message":"GET /photo/4 200 362 52.152ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 13.753ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 7939 2.176ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 17.088ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 18.501ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 15.246ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.067ms","tag":" API "}
+{"level":"info","message":"POST /photo/4/save 200 145 114.045ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 15.292ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 8.293ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 12.011ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 17.418ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 8389 1.425ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.605ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 23.496ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 6.143ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 9.155ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 2.664ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 8881 2.003ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 4.309ms","tag":" API "}
+{"level":"info","message":"GET /user/saved-image 200 1499 63.271ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 17.147ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 5.861ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 1.913ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 1.893ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 8709 1.829ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.263ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 2.012ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 6.009ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 9.318ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.201ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 8.451ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.569ms","tag":" API "}
+{"level":"info","message":"GET /user/saved-image 304 undefined 62.346ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 500 1311 44.282ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 500 1311 17.219ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 3.424ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 3.487ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 5.661ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.089ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 14.760ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.516ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}

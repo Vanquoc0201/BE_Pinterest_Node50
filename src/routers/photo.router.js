@@ -9,5 +9,8 @@ photoRouter.post('/upload-images',protect,uploadLocal.single("avatar"), photoCon
 photoRouter.get('/pagination',protect, photoController.findAll);
 photoRouter.get('/:id', photoController.findOne);
 photoRouter.delete('/:id',protect, photoController.remove);
+photoRouter.post('/:id/save',protect,photoController.saveImage)
+photoRouter.delete('/:id/save',protect,photoController.unSaveImage)
+
 
 export default photoRouter;

@@ -25,7 +25,6 @@ export const authService = {
       });
       delete userNew.password;
       return userNew;
-
    },
 
    login: async function (req) {
