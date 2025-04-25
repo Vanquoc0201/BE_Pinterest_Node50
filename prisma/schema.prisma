@@ -23,7 +23,6 @@ model Comments {
 
   @@index([imageId], map: "imageId")
   @@index([userId], map: "userId")
-  
 }
 
 model Images {
@@ -39,7 +38,8 @@ model Images {
   updatedAt   DateTime   @default(now()) @db.Timestamp(0)
   Comments    Comments[]
   Users       Users      @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Images_ibfk_1")
-  Saves       Saves[]    
+  Likes       Likes[]
+  Saves       Saves[] 
 
   @@index([userId], map: "userId")
 }
@@ -75,5 +75,22 @@ model Users {
   updatedAt DateTime   @default(now()) @db.Timestamp(0)
   Comments  Comments[]
   Images    Images[]
-  Saves     Saves[]    
+  Likes     Likes[]
+  Saves     Saves[]    @ignore
+}
+
+model Likes {
+  likeId    Int       @id @default(autoincrement())
+  userId    Int
+  imageId   Int
+  deletedBy Int       @default(0)
+  isDeleted Boolean   @default(false)
+  deletedAt DateTime? @db.Timestamp(0)
+  createdAt DateTime  @default(now()) @db.Timestamp(0)
+  updatedAt DateTime  @default(now()) @db.Timestamp(0)
+  Users     Users     @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Likes_ibfk_1")
+  Images    Images    @relation(fields: [imageId], references: [imageId], onDelete: NoAction, onUpdate: NoAction, map: "Likes_ibfk_2")
+
+  @@unique([userId, imageId], map: "unique_user_image")
+  @@index([imageId], map: "imageId")
 }

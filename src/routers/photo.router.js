@@ -8,6 +8,8 @@ const photoRouter = express.Router();
 photoRouter.post('/upload-images',protect,uploadLocal.single("avatar"), photoController.create);
 photoRouter.get('/pagination',protect, photoController.findAll);
 photoRouter.get('/:id', photoController.findOne);
+photoRouter.get('/:id/like', photoController.getLike);
+
 photoRouter.delete('/:id',protect, photoController.remove);
 photoRouter.post('/:id/save',protect,photoController.saveImage)
 photoRouter.delete('/:id/save',protect,photoController.unSaveImage)

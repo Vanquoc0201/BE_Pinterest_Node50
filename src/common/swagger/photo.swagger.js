@@ -24,7 +24,7 @@ const photoSwagger = {
         200: { description: "OK" },
         401: {
           description: "Chưa xác thực hoặc token không hợp lệ",
-      },
+        },
       },
     },
   },
@@ -49,7 +49,7 @@ const photoSwagger = {
         200: { description: "oke" },
         401: {
           description: "Chưa xác thực hoặc token không hợp lệ",
-      },
+        },
       },
     },
   },
@@ -62,48 +62,57 @@ const photoSwagger = {
         200: { description: "oke" },
         401: {
           description: "Chưa xác thực hoặc token không hợp lệ",
-      },
+        },
       },
     },
-    delete : {
-        tags: ["Photo"],
-        security: [{ bearerAuth: [] }],
-        parameters: [{ name: "id", in: "path", description: "ID ảnh" }],
-        responses: {
-            200: { description: "oke" },
-            401: {
-              description: "Chưa xác thực hoặc token không hợp lệ",
-          },
+    delete: {
+      tags: ["Photo"],
+      security: [{ bearerAuth: [] }],
+      parameters: [{ name: "id", in: "path", description: "ID ảnh" }],
+      responses: {
+        200: { description: "oke" },
+        401: {
+          description: "Chưa xác thực hoặc token không hợp lệ",
         },
-    }
+      },
+    },
   },
-  "/photo/{id}/save" : {
-    post : {
-        tags : ["Photo"],
-        security: [{ bearerAuth: [] }],
-        parameters : [
-            { name: "id", in: "path", description: "ID ảnh" },
-        ],
-        responses : {
-            200: { description: "oke" },
-            401: {
-              description: "Chưa xác thực hoặc token không hợp lệ",
-          },
+  "/photo/{id}/save": {
+    post: {
+      tags: ["Photo"],
+      security: [{ bearerAuth: [] }],
+      parameters: [{ name: "id", in: "path", description: "ID ảnh" }],
+      responses: {
+        200: { description: "oke" },
+        401: {
+          description: "Chưa xác thực hoặc token không hợp lệ",
         },
+      },
     },
-    delete : {
-        tags : ["Photo"],
-        security: [{ bearerAuth: [] }],
-        parameters : [
-            { name: "id", in: "path", description: "ID ảnh" },
-        ],
-        responses : {
-            200: { description: "oke" },
-            401: {
-              description: "Chưa xác thực hoặc token không hợp lệ",
-          },
+    delete: {
+      tags: ["Photo"],
+      security: [{ bearerAuth: [] }],
+      parameters: [{ name: "id", in: "path", description: "ID ảnh" }],
+      responses: {
+        200: { description: "oke" },
+        401: {
+          description: "Chưa xác thực hoặc token không hợp lệ",
         },
-    }
-  }
+      },
+    },
+  },
+  "/photo/{id}/like": {
+    get: {
+      tags: ["Photo"],
+      security: [{ bearerAuth: [] }],
+      parameters: [{ name: "id", in: "path", description: "ID ảnh" }],
+      responses: {
+        200: { description: "oke" },
+        401: {
+          description: "Chưa xác thực hoặc token không hợp lệ",
+        },
+      },
+    },
+  },
 };
 export default photoSwagger;

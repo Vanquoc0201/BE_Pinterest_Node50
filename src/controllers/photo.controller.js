@@ -58,5 +58,14 @@ export const photoController = {
          next(err);
       }
    },
+   getLike : async function (req, res, next) {
+      try {
+         const result = await photoService.getLike(req);
+         const response = responseSuccess(result, `Đếm số like của ảnh thành công`);
+         res.status(response.statusCode).json(response);
+      } catch (err) {
+         next(err);
+      }
+   },
 };
 export default photoController

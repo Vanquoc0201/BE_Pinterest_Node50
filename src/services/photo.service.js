@@ -187,6 +187,29 @@ export const photoService = {
       },
     });
     return {message : "Hủy lưu ảnh thành công"}
+  },
+  getLike : async function (req) {
+    const imageId = +req.params.id;
+     // Kiểm tra xem ảnh có tồn tại không
+     const imageExists = await prisma.images.findUnique({
+      where: {
+        imageId: imageId,
+      },
+    });
+
+    // Nếu ảnh không tồn tại, trả về lỗi
+    if (!imageExists) {
+      throw new Error("Ảnh không tồn tại");
+    }
+    const likeCount = await prisma.likes.count({
+      where: {
+        imageId: imageId,
+      },
+    })
+    return {
+      message: `Số lượt like là ${likeCount}`,
+      likeCount: likeCount,
+    };
   }
 };
 export default photoService;

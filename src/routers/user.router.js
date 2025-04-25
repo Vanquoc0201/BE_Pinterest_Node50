@@ -6,6 +6,7 @@ const userRouter = express.Router();
 
 
 userRouter.get('/saved-image', protect,userController.saveImage);
+userRouter.get('/:id/like', protect, userController.getLike);
 
 
 export default userRouter;

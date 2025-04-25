@@ -11,6 +11,15 @@ export const userController = {
          next(err);
       }
    },
+   getLike: async function (req, res, next) {
+      try {
+         const result = await userService.getLike(req);
+         const response = responseSuccess(result, `Lấy danh sách ảnh người dùng like thành công`);
+         res.status(response.statusCode).json(response);
+      } catch (err) {
+         next(err);
+      }
+   },
 
    
 };
