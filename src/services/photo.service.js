@@ -2,6 +2,7 @@ import prisma from "../common/prisma/init.prisma";
 import fs from "fs";
 import path from "fs";
 import { v2 as cloudinary } from "cloudinary";
+import { API_KEY_CLOUDINARY, API_SECRET_CLOUDINARY, CLOUD_NAME_CLOUDINARY } from "../common/constant/app.constant";
 export const photoService = {
   create: async function (req) {
     const file = req.file;
@@ -11,9 +12,9 @@ export const photoService = {
     const user = req.user;
     const userId = user.userId;
     cloudinary.config({
-      cloud_name: "dadvwo1ur",
-      api_key: "257899451222326",
-      api_secret: "EMVndUG63ffuEf25P4JhholM56U", // Click 'View API Keys' above to copy your API secret
+      cloud_name: CLOUD_NAME_CLOUDINARY,
+      api_key: API_KEY_CLOUDINARY,
+      api_secret: API_SECRET_CLOUDINARY, 
     });
     const uploadResult = await new Promise((resolve) => {
       cloudinary.uploader
@@ -128,9 +129,9 @@ export const photoService = {
 
     // Cấu hình Cloudinary
     cloudinary.config({
-      cloud_name: "dadvwo1ur",
-      api_key: "257899451222326",
-      api_secret: "EMVndUG63ffuEf25P4JhholM56U",
+      cloud_name: CLOUD_NAME_CLOUDINARY,
+      api_key: API_KEY_CLOUDINARY,
+      api_secret: API_SECRET_CLOUDINARY,
     });
 
     // Xóa ảnh trên Cloudinary
