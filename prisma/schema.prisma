@@ -39,7 +39,7 @@ model Images {
   Comments    Comments[]
   Users       Users      @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "Images_ibfk_1")
   Likes       Likes[]
-  Saves       Saves[]    @ignore
+  Saves       Saves[]    
 
   @@index([userId], map: "userId")
 }
@@ -59,7 +59,7 @@ model Saves {
 
   @@index([userId], map: "userId")
   @@index([imageId], map: "imageId")
-  @@ignore
+  @@id([userId, imageId]) // Khóa chính kết hợp
 }
 
 model Users {
