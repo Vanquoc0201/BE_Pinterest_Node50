@@ -1163,3 +1163,29 @@
 {"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
 {"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
 {"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /user 500 899 109.545ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 6.271ms","tag":" API "}
+{"level":"info","message":"POST /user 500 899 5.311ms","tag":" API "}
+{"level":"info","message":"POST /user 200 339 93.927ms","tag":" API "}
+{"level":"info","message":"GET /user 401 1443 0.630ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 4.192ms","tag":" API "}
+{"level":"info","message":"GET /user 200 449 11.882ms","tag":" API "}
+{"level":"info","message":"GET /user/3 200 293 7.585ms","tag":" API "}
+{"level":"info","message":"GET /user/3 200 293 6.832ms","tag":" API "}
+{"level":"info","message":"GET /user/3 200 293 2.115ms","tag":" API "}
+{"level":"info","message":"GET /user/ 200 449 6.641ms","tag":" API "}
+{"level":"info","message":"GET /user/3 200 293 5.280ms","tag":" API "}
+{"level":"info","message":"DELETE /user/3 401 1435 0.447ms","tag":" API "}
+{"level":"info","message":"DELETE /user/3 200 122 21.293ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /user/3 500 427 17.644ms","tag":" API "}
+{"level":"info","message":"PUT /user/3 401 1435 0.924ms","tag":" API "}
+{"level":"info","message":"PUT /user/3 200 301 24.222ms","tag":" API "}
