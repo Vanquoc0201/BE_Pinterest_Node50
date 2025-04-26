@@ -1113,3 +1113,39 @@
 {"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 0.842ms","tag":" API "}
 {"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 6.641ms","tag":" API "}
 {"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.320ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/upload-images 200 304 2147.690ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"POST /photo/upload-images 200 316 2497.395ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"DELETE /photo/8 200 157 1456.256ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 16.295ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 17.807ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 5.102ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 12467 1.744ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 4.055ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 500 1332 20.990ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 13.922ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 500 1236 78.315ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 8.770ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 9.629ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 14.347ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 16.738ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 12469 1.027ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 6.214ms","tag":" API "}
+{"level":"info","message":"POST /photo/upload-images 200 317 2196.216ms","tag":" API "}
+{"level":"info","message":"DELETE /photo/9 200 157 1672.070ms","tag":" API "}
+{"level":"info","message":"DELETE /photo/1 500 410 24.399ms","tag":" API "}

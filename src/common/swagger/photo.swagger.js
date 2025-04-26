@@ -9,13 +9,13 @@ const photoSwagger = {
             schema: {
               type: "object",
               properties: {
-                file: {
+                avatar: {
                   type: "string",
                   format: "binary",
                   description: "Tệp ảnh cần upload",
                 },
               },
-              required: ["file"], // Đảm bảo là file
+              required: ["avatar"], // Đảm bảo là file
             },
           },
         },

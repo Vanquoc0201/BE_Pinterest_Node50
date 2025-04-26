@@ -1,6 +1,7 @@
 import prisma from "../common/prisma/init.prisma";
 import fs from "fs";
 import path from "fs";
+import { v2 as cloudinary } from "cloudinary";
 export const photoService = {
   create: async function (req) {
     const file = req.file;
@@ -9,9 +10,21 @@ export const photoService = {
     }
     const user = req.user;
     const userId = user.userId;
-    const imageName = file.originalname;
-    const imageLink = `images/${file.filename}`;
-
+    cloudinary.config({
+      cloud_name: "dadvwo1ur",
+      api_key: "257899451222326",
+      api_secret: "EMVndUG63ffuEf25P4JhholM56U", // Click 'View API Keys' above to copy your API secret
+    });
+    const uploadResult = await new Promise((resolve) => {
+      cloudinary.uploader
+        .upload_stream({ folder: "images" }, (error, uploadResult) => {
+          return resolve(uploadResult);
+        })
+        .end(file.buffer);
+    });
+    // Lấy link và public_id từ Cloudinary
+    const imageName = uploadResult.public_id; // Bạn có thể lưu tên theo public_id
+    const imageLink = uploadResult.secure_url; // Link để xem ảnh
     const newImage = await prisma.images.create({
       data: {
         imageName: imageName,
@@ -22,7 +35,7 @@ export const photoService = {
 
     return {
       imageId: newImage.imageId,
-      filename: file.filename,
+      filename: newImage.imageName, // Dùng originalname cho đẹp hơn
       imageLink: newImage.imageLink,
       message: "Upload ảnh thành công",
     };
@@ -100,6 +113,7 @@ export const photoService = {
       throw new Error("Không xác định được người dùng");
     }
 
+    // Tìm ảnh trong database
     const image = await prisma.images.findUnique({
       where: { imageId },
     });
@@ -112,6 +126,17 @@ export const photoService = {
       throw new Error("Bạn không có quyền xóa ảnh này");
     }
 
+    // Cấu hình Cloudinary
+    cloudinary.config({
+      cloud_name: "dadvwo1ur",
+      api_key: "257899451222326",
+      api_secret: "EMVndUG63ffuEf25P4JhholM56U",
+    });
+
+    // Xóa ảnh trên Cloudinary
+    await cloudinary.uploader.destroy(image.imageName); // imageName lưu public_id
+
+    // Xóa trong database
     await prisma.images.delete({
       where: { imageId },
     });
@@ -140,7 +165,7 @@ export const photoService = {
           imageId: imageId,
         },
       },
-    });    
+    });
     if (alreadySaved) {
       throw new Error("Ảnh đã được lưu trước đó");
     }
@@ -154,8 +179,8 @@ export const photoService = {
     });
     return { message: "Lưu ảnh thành công" };
   },
-  unSaveImage : async function (req) {
-    const userId = +req.user?.userId;;
+  unSaveImage: async function (req) {
+    const userId = +req.user?.userId;
     const imageId = +req.params.id;
     if (!userId || !imageId || isNaN(imageId)) {
       throw new Error("Dữ liệu không hợp lệ");
@@ -186,12 +211,12 @@ export const photoService = {
         },
       },
     });
-    return {message : "Hủy lưu ảnh thành công"}
+    return { message: "Hủy lưu ảnh thành công" };
   },
-  getLike : async function (req) {
+  getLike: async function (req) {
     const imageId = +req.params.id;
-     // Kiểm tra xem ảnh có tồn tại không
-     const imageExists = await prisma.images.findUnique({
+    // Kiểm tra xem ảnh có tồn tại không
+    const imageExists = await prisma.images.findUnique({
       where: {
         imageId: imageId,
       },
@@ -205,11 +230,11 @@ export const photoService = {
       where: {
         imageId: imageId,
       },
-    })
+    });
     return {
       message: `Số lượt like là ${likeCount}`,
       likeCount: likeCount,
     };
-  }
+  },
 };
 export default photoService;
