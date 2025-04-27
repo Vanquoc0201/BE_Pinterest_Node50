@@ -1,4 +1,5 @@
 import authSwagger from "./auth.swagger";
+import commentSwagger from "./comment.swagger";
 import likeSwagger from "./like.swagger";
 import photoSwagger from "./photo.swagger";
 import userSwagger from "./user.swagger";
@@ -30,6 +31,7 @@ const swaggerDocument = {
     },
     paths: {
        ...authSwagger,
+       ...commentSwagger,
        ...photoSwagger,
        ...userSwagger,
        ...likeSwagger
