@@ -8,7 +8,7 @@ const commentRouter = express.Router();
 commentRouter.post("/",protect, commentController.create);
 commentRouter.get("/",protect, commentController.findAll);
 commentRouter.get("/:id", commentController.findOne);
-commentRouter.patch("/:id",protect, commentController.update);
+commentRouter.put("/:id",protect, commentController.update);
 commentRouter.delete("/:id",protect, commentController.remove);
 
 export default commentRouter;
