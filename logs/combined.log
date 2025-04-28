@@ -1255,3 +1255,60 @@
 {"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 0.764ms","tag":" API "}
 {"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 29684 0.708ms","tag":" API "}
 {"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 0.546ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 200 3106 18.469ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 5.634ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 29684 2.189ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 14.738ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 10.656ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.509ms","tag":" API "}
+{"level":"info","message":"POST /comment 500 1332 22.002ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 16.427ms","tag":" API "}
+{"level":"info","message":"POST /comment 500 1074 358.686ms","tag":" API "}
+{"level":"info","message":"POST /comment 200 369 48.145ms","tag":" API "}
+{"level":"info","message":"POST /comment 500 1074 25.911ms","tag":" API "}
+{"level":"info","message":"POST /comment 200 369 91.852ms","tag":" API "}
+{"level":"info","message":"GET /comment?page=1&pageSize=5 200 999 107.277ms","tag":" API "}
+{"level":"info","message":"GET /comment/3 500 408 13.228ms","tag":" API "}
+{"level":"info","message":"GET /comment/4 200 523 10.717ms","tag":" API "}
+{"level":"info","message":"PUT /comment/3 404 148 1.292ms","tag":" API "}
+{"level":"info","message":"PUT /comment/4 404 148 0.631ms","tag":" API "}
+{"level":"info","message":"PUT /comment/4 404 148 1.191ms","tag":" API "}
+{"level":"info","message":"PUT /user/3 200 293 226.473ms","tag":" API "}
+{"level":"info","message":"POST /auth/login 500 415 146.347ms","tag":" API "}
+{"level":"info","message":"POST /auth/login 200 433 139.226ms","tag":" API "}
+{"level":"info","message":"POST /auth/refresh-token 200 436 11.764ms","tag":" API "}
+{"level":"info","message":"PUT /comment/5 404 148 1.129ms","tag":" API "}
+{"level":"info","message":"PUT /comment/1 404 148 0.792ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 304 undefined 1.582ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 1.474ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 2.853ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 304 undefined 1.495ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 110.894ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.246ms","tag":" API "}
+{"level":"info","message":"PUT /comment/1 404 148 1.253ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.520ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 3.462ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 7.568ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 2.873ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 29686 1.832ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 1.990ms","tag":" API "}
+{"level":"info","message":"PATCH /comment/1 500 1157 67.692ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 304 undefined 12.090ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 304 undefined 5.607ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 304 undefined 9.345ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 29684 2.061ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 21.660ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png 304 undefined 2.523ms","tag":" API "}
+{"level":"info","message":"PUT /comment/1 500 1157 65.031ms","tag":" API "}
+{"level":"info","message":"PUT /comment/2 200 367 56.624ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs/ 200 3106 43.070ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 200 154986 12.392ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 200 1468326 12.897ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 200 229223 3.627ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 29684 1.269ms","tag":" API "}
+{"level":"info","message":"PUT /comment/3 500 1157 209.213ms","tag":" API "}
