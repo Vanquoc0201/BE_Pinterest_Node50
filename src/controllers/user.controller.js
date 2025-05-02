@@ -1,4 +1,4 @@
-import userService from "../services/user.service";
+import {userService} from "../services/user.service";
 import { responseSuccess } from "../common/helpers/response.helper";
 export const userController = {
   create: async function (req, res, next) {

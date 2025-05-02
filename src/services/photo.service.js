@@ -1,13 +1,12 @@
 import prisma from "../common/prisma/init.prisma";
-import fs from "fs";
-import path from "fs";
 import { v2 as cloudinary } from "cloudinary";
 import { API_KEY_CLOUDINARY, API_SECRET_CLOUDINARY, CLOUD_NAME_CLOUDINARY } from "../common/constant/app.constant";
+import { BadRequestException } from "../common/helpers/exception.helper";
 export const photoService = {
   create: async function (req) {
     const file = req.file;
     if (!file) {
-      throw new Error("No file Upload");
+      throw new BadRequestException("No file Upload");
     }
     const user = req.user;
     const userId = user.userId;
@@ -71,7 +70,7 @@ export const photoService = {
   findOne: async function (req) {
     const imageId = +req.params.id;
     if (!imageId || isNaN(imageId)) {
-      throw new Error("ID ảnh không hợp lệ");
+      throw new BadRequestException("ID ảnh không hợp lệ");
     }
 
     const image = await prisma.images.findUnique({
@@ -89,7 +88,7 @@ export const photoService = {
     });
 
     if (!image) {
-      throw new Error("Không tìm thấy ảnh");
+      throw new BadRequestException("Không tìm thấy ảnh");
     }
 
     return {
@@ -106,12 +105,12 @@ export const photoService = {
     const imageId = +req.params.id;
 
     if (!imageId || isNaN(imageId)) {
-      throw new Error("ID của ảnh không hợp lệ");
+      throw new BadRequestException("ID của ảnh không hợp lệ");
     }
 
     const userId = req.user?.userId;
     if (!userId) {
-      throw new Error("Không xác định được người dùng");
+      throw new BadRequestException("Không xác định được người dùng");
     }
 
     // Tìm ảnh trong database
@@ -120,11 +119,11 @@ export const photoService = {
     });
 
     if (!image) {
-      throw new Error("Không tìm thấy ảnh");
+      throw new BadRequestException("Không tìm thấy ảnh");
     }
 
     if (image.userId !== userId) {
-      throw new Error("Bạn không có quyền xóa ảnh này");
+      throw new BadRequestException("Bạn không có quyền xóa ảnh này");
     }
 
     // Cấu hình Cloudinary
@@ -151,12 +150,12 @@ export const photoService = {
     const userId = req.user?.userId;
     const imageId = +req.params.id;
     if (!userId || !imageId || isNaN(imageId)) {
-      throw new Error("Dữ liệu không hợp lệ");
+      throw new BadRequestException("Dữ liệu không hợp lệ");
     }
     // Kiểm tra ảnh có tồn tại không
     const image = await prisma.images.findUnique({ where: { imageId } });
     if (!image) {
-      throw new Error("Không tìm thấy ảnh");
+      throw new BadRequestException("Không tìm thấy ảnh");
     }
     // Kiểm tra đã lưu hay chưa
     const alreadySaved = await prisma.saves.findUnique({
@@ -168,7 +167,7 @@ export const photoService = {
       },
     });
     if (alreadySaved) {
-      throw new Error("Ảnh đã được lưu trước đó");
+      throw new BadRequestException("Ảnh đã được lưu trước đó");
     }
     // Lưu ảnh
     await prisma.saves.create({
@@ -184,12 +183,12 @@ export const photoService = {
     const userId = +req.user?.userId;
     const imageId = +req.params.id;
     if (!userId || !imageId || isNaN(imageId)) {
-      throw new Error("Dữ liệu không hợp lệ");
+      throw new BadRequestException("Dữ liệu không hợp lệ");
     }
     // Kiểm tra ảnh có tồn tại không
     const image = await prisma.images.findUnique({ where: { imageId } });
     if (!image) {
-      throw new Error("Không tìm thấy ảnh");
+      throw new BadRequestException("Không tìm thấy ảnh");
     }
     // Kiểm tra đã lưu hay chưa
     const alreadySaved = await prisma.saves.findUnique({
@@ -201,7 +200,7 @@ export const photoService = {
       },
     });
     if (!alreadySaved) {
-      throw new Error("Ảnh chưa được lưu trước đó");
+      throw new BadRequestException("Ảnh chưa được lưu trước đó");
     }
     // Hủy lưu ảnh
     await prisma.saves.delete({
@@ -225,7 +224,7 @@ export const photoService = {
 
     // Nếu ảnh không tồn tại, trả về lỗi
     if (!imageExists) {
-      throw new Error("Ảnh không tồn tại");
+      throw new BadRequestException("Ảnh không tồn tại");
     }
     const likeCount = await prisma.likes.count({
       where: {
