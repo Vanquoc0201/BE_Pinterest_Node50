@@ -1378,3 +1378,10 @@
 {"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 304 undefined 29.470ms","tag":" API "}
 {"level":"info","message":"GET /api-docs/favicon-32x32.png 200 628 15.451ms","tag":" API "}
 {"level":"info","message":"PUT /comment/3 404 391 102.835ms","tag":" API "}
+{"level":"info","message":"Server online at http://localhost:3069","tag":"SERVER"}
+{"level":"info","message":"GET /api-docs 301 158 12.672ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/ 200 3106 16.575ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui.css 200 154986 18.179ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js 200 229223 21.217ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js 200 1468326 22.006ms","tag":" API "}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js 200 29684 2.043ms","tag":" API "}
